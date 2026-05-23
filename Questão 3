@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro anos,horas,dias
+
+    escreva("Digite sua idade:")
+    leia(anos)
+
+    dias = anos*365
+    horas = dias*24
+
+    escreva("Você tem ",dias," de vida.\n")
+    escreva("Você tem ",horas," de vida.\n")
+  }
+}
