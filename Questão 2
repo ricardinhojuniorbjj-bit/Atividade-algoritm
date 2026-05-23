@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro a,b,c
+
+    escreva("Digite um número:")
+    leia(a)
+
+    limpa()
+
+    escreva("Digite um número:")
+    leia(b)
+
+    limpa()
+
+    c = a+b
+    c = c*c
+
+    escreva("O resultado do quadrado da soma dos valores lidos é:",c)
+  }
+}
