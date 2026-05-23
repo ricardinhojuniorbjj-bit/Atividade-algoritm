@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    real depositar
+    enquanto(numero != 4){
+      escreva("1 → Ver saldo \n2 → Realizar depósito \n3 → Atendimento \n4 → Encerrar atendimento","\n")
+      leia(numero)
+
+      escolha(numero){
+        caso 1:  
+          escreva("\n","Ver saldo:R$67,00","\n")
+        pare  
+      
+        caso 2:  
+            escreva("Digite quanto você quer depositar:\n")
+            leia(depositar)
+        pare  
+          
+        caso 3:  
+            escreva("Atendimento em andamento","\n")
+        pare  
+
+        caso contrario:
+        pare
+      }
+    }
+  }
+}
