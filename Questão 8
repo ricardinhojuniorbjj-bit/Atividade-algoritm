@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro senha
+    inteiro i = 1
+
+    escreva("Senha: ")
+    leia(senha)
+
+    enquanto(senha != 2025 e i <= 2){
+      escreva("Senha incorreta!\n")
+      escreva("Senha: ")
+      leia(senha)
+      i=i+1
+    }
+
+    se(senha == 2025){
+      escreva("Acesso liberado")
+    }senao{
+      escreva("Acesso bloqueado")
+    }
+  }
+}
