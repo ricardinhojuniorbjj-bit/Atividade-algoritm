@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    real valor
+    real valorCaro = 0
+    cadeia nome, nomeCaro
+    inteiro i = 1
+
+    enquanto(i <= 5){
+      escreva("Nome do produto: ")
+      leia(nome)
+
+      escreva("Valor do produto: ")
+      leia(valor)
+
+      se(valor > valorCaro){
+        valorCaro = valor
+        nomeCaro = nome
+      }
+      i=i+1
+    }
+    escreva("O produto mais caro é: ",nomeCaro,"\n")
+    escreva("Valor: ",valorCaro)
+  }
+}
