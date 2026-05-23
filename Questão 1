@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro a,b,caixa
+
+    escreva("Digite um número para a variável A: ")
+    leia(a)
+    limpa()
+    escreva("Digite um número para a variável B: ")
+    leia(b)
+    limpa()
+
+    caixa = a
+    a = b
+    b = caixa
+
+    escreva("O número da variável A é ",a,".\nO número da variável B é ",b,".") 
+  }
+}
